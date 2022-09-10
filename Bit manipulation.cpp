@@ -31,13 +31,13 @@ void SetithBit(int &n, int i){
     cin >> i;
     int mask = (1<<i);
    n=n|mask;
-   cout<<"n";
+   cout<<n;
 }
 void ClearithBit(int &n,int i){
     cin >> i;
     int mask =~(1<<i);
     n = n&mask;
-    cout<<"n";
+    cout<<n;
 }
 void Clearlastithbit(int &n, int i){
     cin >> i;
